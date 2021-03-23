@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<meta name='viewport' content='width=device-width', initial-scale='1.0'>
+<head>
+
+<style type='text/css'>
+
+body{
+background:rgb(30,30,30);
+}
+
+#header{
+margin-left:16%;
+}
+
+#logo{
+float:left;
+width:100px;
+height:100px;
+border-radius:100px;
+background:rgb(12,12,12);
+padding:3px;
+text-align:center;
+box-shadow:0 1px 0 rgba(185,185,185,.2);
+}
+
+#logoc{
+display:inline-block;
+margin-top:36%;
+color:rgb(185,185,185);
+font:12px century gothic;
+text-transform:uppercase;
+}
+
+#logo:hover{
+opacity:.82;
+}
+
+#hrfirst{
+margin:2%;
+float:left;
+color:#000;
+width:90%;
+opacity:.15;
+}
+
+#hrlast{
+margin:2%;
+float:right;
+color:#000;
+width:90%;
+opacity:.15;
+box-shadow:1px 1px 1px #000;
+}
+
+#first{
+padding:0 0 0 22px;
+background:url(4.png) no-repeat;
+margin-top:13%;
+margin-left:1%;
+float:left;
+color:rgb(185,185,185);
+font:10px verdana;
+text-shadow:0 2px 1px #000;
+}
+
+#last{
+width:35%;
+padding:0 20px 0 0;
+background:url(5.png) no-repeat 94%;
+margin-top:13%;
+margin-left:60%;
+float:left;
+color:rgb(185,185,185);
+font:10px verdana;
+text-shadow:0 2px 1px #000; 
+}
+
+#sel1{
+float:left;
+width:33%;
+}
+
+#sel2{
+float:left;
+width:33%;
+}
+
+#body-text{
+padding-top:20px;
+width:64%;
+margin-left:17%;
+clear:left;
+color:rgb(185,185,185);
+font:1.7em GreyscaleBasic;
+letter-spacing:1px;
+text-align:center;
+}
+
+#buttons{
+padding-top:20px;
+width:64%;
+margin-left:17%;
+clear:left;
+}
+
+input{
+width:22.5%;
+margin-right:2%;
+color:#fff;
+border-radius:4px;
+padding:2px 20px;
+font:20px Berlin Sans FB;
+letter-spacing:2px;
+box-shadow:1px 1px 2px #000,0 15px rgba(255,255,255,0.28) inset,0 1px rgba(255,255,255,0.25) inset;
+text-shadow:-1px -1px 0 rgba(0,0,0,.25);
+}
+
+input:hover{
+cursor:pointer;
+}
+
+#b1{
+background:rgb(0,128,255);
+border:1px solid rgb(0,128,255);
+}
+
+#b2{
+background:rgb(11,201,163);
+border:1px solid rgb(11,201,163);
+}
+
+#b3{
+background:rgb(182,41,41);
+border:1px solid rgb(182,41,41);
+}
+
+#b4{
+background:rgb(214,103,50);
+border:1px solid rgb(214,103,50);
+}
+
+#buttons ul{
+//background:#ff0000;
+color:rgb(185,185,185);
+font:.9em verdana;
+text-shadow:0 2px 1px #000;
+list-style:none;
+float:left;
+width:22%;
+margin-right:2.685%;
+padding:1px;
+}
+
+#buttons ul li{
+padding:4px;
+margin-left:8%;
+}
+
+#buttons ul li:before{
+content:'';
+border:solid transparent;
+height:0;
+width:0;
+position:absolute;
+border-left-color:rgb(185,185,185);
+border-width:8px;
+//left:10%;
+margin-left:-15px
+}
+
+#about{
+margin-top:25%;
+background:rgba(0,0,0,.3);
+width:100%;
+border-radius:0.3em;
+padding:.5em;
+color:rgba(185,185,185,.8);
+font:1em Calibri;
+box-shadow:0 0 .4em #000 inset;
+clear:left;
+line-height:1.3em;
+}
+
+#about span{
+font-size:1.15em;
+color:rgba(13,102,191,.95);
+}
+
+#abt{
+margin-top:1px;
+float:left;
+color:#000;
+width:99%;
+opacity:.3;
+}
+
+@media screen and (max-width:600px) and (min-width:120px)
+{
+
+input{
+width:60%;
+clear:right;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id='header'>
+<div id='sel1'><label id='first'>First Illumination</label><hr id='hrfirst'/></div>
+<div id='logo'><label id='logoc'><b>Enlightenment</b><br>Quotes</label></div>
+<div id='sel2'><label id='last'>Last Illumination</label><hr id='hrlast'/></div>
+</div>
+
+<div id='body-text'>
+Inspiring quotes from creative people who thought <br><b>outside the box</b>.
+</div>
+
+<div id='buttons'>
+<input type='submit' value='Scientists' id='b1'/>
+<input type='submit' value='Artists' id='b2'/>
+<input type='submit' value='Musicians' id='b3'/>
+<input type='submit' value='Writers' id='b4'/>
+
+<ul>
+	<li>Neils Bohr</li>
+	<li>Gallileo</li>
+	<li>Edison</li>
+	<li>Stephen Hawking</li>
+</ul>
+
+<ul>
+	<li>Van Gogh</li>
+	<li>Da Vinci</li>
+	<li>Pablo Picasso</li>
+	<li>Monet</li>
+</ul>
+<ul>
+	<li>Beethoven</li>
+	<li>Bach</li>
+	<li>Frank Loesser</li>
+	<li>Bob Marley</li>
+</ul>
+<ul>
+	<li>Paolo Coelho</li>
+	<li>Leo Tolstoy</li>
+	<li>Shakespeare</li>
+	<li>William Blake</li>
+</ul>
+
+<div id='about'>
+<span id='title'>About this site<hr id='abt'><br></span>
+This site brings to you a collection of inspiring quotes collected over the years from the greatest minds spanning over different fields. This is purely an experiment in the direction of the capabilities of CSS3 and an ongoing work in progress. You can contact me anytime at steroidart.deviantart.com for questions or comments.
+</div>
+
+</div>
+
+
+
+</body>
+
+</html>
